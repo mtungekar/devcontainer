@@ -44,7 +44,7 @@ esac
 
 CMAKE_BINARY_NAME="cmake-${CMAKE_VERSION}-linux-${ARCH}.sh"
 CMAKE_CHECKSUM_NAME="cmake-${CMAKE_VERSION}-SHA-256.txt"
-TMP_DIR=$(mktemp -d -t cmake-XXXXXXXXXX)
+TMP_DIR=$(mktemp -d -t cmake-XXXXXXXXXX) 
 
 echo "${TMP_DIR}"
 cd "${TMP_DIR}"
